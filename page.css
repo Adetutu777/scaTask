@@ -318,25 +318,28 @@ text-align: left;
   .box-3 {
     margin-left: 1rem;
   }
+  .service-section{
+      display: block;
+  }
   
   .wrapper{
       width: 900px;
       margin: 2% auto;
       font-size: 20px;
+      display: flex;
      
   }
 
   .single-price{
       width: 33%;
       background: whitesmoke;
-      float: left;
       margin-top: 2%;
       box-shadow: 1px 1px 20px  rgba(0,0,0,0.3);
       /*margin-bottom: 1rem;*/
       text-align: center;
       transition: 0.9s;
       margin-bottom: 5rem;
-      height: 55vh;
+      height: 55vh;    
   }
 
   .price{
