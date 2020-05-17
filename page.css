@@ -1,0 +1,386 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+a{
+    text-decoration: none;
+
+}
+header{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 12rem;
+
+
+}
+.nav-area{
+    list-style: none;
+
+}
+
+.nav-area li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+
+}
+.fusion{
+    padding: 1rem 0rem;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-right: 10rem;
+    color: red;
+    letter-spacing: 2.0px;
+}
+
+.nav-area li a{
+    color: fff;
+}
+
+.nav-area li a:hover{
+    color: red;
+
+}
+
+.intro{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.stat{
+margin-bottom: 1rem;
+font-size: 25px;
+
+
+
+}
+
+.paragraph{
+    padding: 1rem;
+    margin: 2rem;
+}
+
+.paragraph .app{
+    font-size: 50px;
+    margin-bottom: 1rem;
+    margin-top: -0.5rem;
+    padding-bottom: 1rem;
+}
+
+.btn{
+    margin: 1.5rem;
+}
+
+.download{
+    margin-right: 2rem;
+    padding: .9rem;
+    width: 35%;
+    border-radius: 3rem;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+button{
+	padding:10px 40px;
+	display: inline-block;
+	color: white;
+	border: none;
+	border-radius: 15px;
+	font-size: 20px;
+	font-weight: bolder;
+	letter-spacing: 1px;
+	box-shadow:  0px 2px 0px red;
+    outline: none;
+
+}
+
+button: active{
+	box-shadow:  0px 3px 0px transparent;
+}
+
+
+button:hover, button:focus{
+	cursor: pointer;
+}
+
+
+
+
+.learn{
+    width: 35%;
+    padding: .9rem;
+    border-radius: 3rem;
+    border: 1px solid red;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+
+
+.img{
+    margin-right: 1rem;
+}
+.Lorem{
+
+    font-size: 20px;
+  line-height: 2rem;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:10px 1em;
+    padding: .5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+   
+
+}
+
+.cursor{
+    width: 100px;
+  text-decoration-color: red;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    /*overflow: hidden;*/
+    border-style: inset;
+    border-width: 2px;
+}
+
+.cursors{
+    width: 200px;
+    text-decoration-color: red;
+      display: block;
+      unicode-bidi: isolate;
+      margin-block-start: 0.5em;
+      margin-block-end: 0.5em;
+      margin-inline-start: auto;
+      margin-inline-end: auto;
+      /*overflow: hidden;*/
+      border-style: inset;
+      border-width: 2px;
+
+}
+
+.service{
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 23px;
+    align-content: center;
+    text-align: center;
+}
+
+
+.ui{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-top: -.9rem;
+    margin-bottom: 1rem;
+}
+
+.icon{
+    margin-top: -0.5rem;
+    margin-bottom: 3rem;
+    margin-left: 8rem;
+    text-align: center;
+    border-radius: 100%;
+	border:2px solid #8c8e9e;
+    padding: .8rem;
+}
+
+
+
+.one, .two, .three, .four, .five, .six {
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+}
+
+
+
+.check{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px 2em;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.para1, .para2, .para3, .para4, .para5, .para6{
+
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    margin-bottom: 1rem;
+    
+
+
+}
+
+.graph{
+text-align: left;
+}
+
+.list{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+
+
+.box-1 {
+    width: 10rem;
+    height: 10rem;
+    background-color: bisque;
+  }
+
+  .box-2 {
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+  }
+
+  .box-3 {
+    width: 10rem;
+    height: 10rem;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    /*background-color: orange;*/
+  }
+
+  .box-4 {
+    width: 10rem;
+    height: 10rem;
+     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    /*background-color: purple;*/
+  }
+  
+  .my-team {
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    margin: 0 2rem;
+  }
+  
+  .my-team img {
+    width: 100%;
+    height: 20vh;
+  }
+  
+  .box-1,
+  .box-2,
+  .box-3,
+  .box-4 {
+    padding: 0.5rem;
+  }
+  
+  .box-2,
+  .box-4 {
+    width: 25%;
+  }
+  .box-3 {
+    margin-left: 1rem;
+  }
+  
+  .wrapper{
+      width: 900px;
+      margin: 2% auto;
+      font-size: 20px;
+     
+  }
+
+  .single-price{
+      width: 33%;
+      background: whitesmoke;
+      float: left;
+      margin-top: 2%;
+      box-shadow: 1px 1px 20px  rgba(0,0,0,0.3);
+      /*margin-bottom: 1rem;*/
+      text-align: center;
+      transition: 0.9s;
+      margin-bottom: 5rem;
+      height: 55vh;
+  }
+
+  .price{
+      margin-bottom: 1rem;
+      margin-bottom: 1rem;
+  }
+
+  .buyin{
+      width: 80px;
+      height: 70px;
+      border-radius: 50%;
+      border: 2px solid burlywood;
+      text-align: center;
+      margin-left: 6rem;
+      margin-bottom: 1rem;
+  }
+
+
+  .deals h4{
+      font-size: 23px;
+      font-weight: normal;
+      text-align: center;
+      line-height: 1.2;
+  }
+
+  .single-price:hover{
+      background: teal;
+      color: #fff;
+      box-shadow: 0 0 15px rgba(0,0,0,1);
+      transform: scale(1.1);
+      z-index: 1;
+      border-radius: 25px;
+  }
+  .single-price a{
+      text-decoration: none;
+      background-color: red;
+      color: white;
+      padding: 4px 10px;
+      display: inline-block;
+      margin: 10% auto;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin-top: 1rem;
+     width: 50%;
+     border-radius: 20px;
+  }
+
