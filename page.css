@@ -387,6 +387,10 @@ text-align: left;
      border-radius: 20px;
   }
 
+.testimonials{
+margin: 10px;
+}
+
 .user_ratings{
     padding: 30px 50px;
     /* background-color: brown; */
