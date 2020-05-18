@@ -387,18 +387,20 @@ text-align: left;
      width: 50%;
      border-radius: 20px;
   }
-
 .testimonials{
-margin: 10px;
-}
-
+    padding-top: 20px;
+}    
 .user_ratings{
-    padding: 30px 50px;
-    /* background-color: brown; */
+    padding: 20px 50px;
+  
 }
 .user_rating_card{
     padding: 20px;
     border-radius: 5px;
+}
+.image{
+    border-radius: 80%;
+    
 } 
  /*  */
 .free_trial,
@@ -424,3 +426,4 @@ input{
 hr{
   border-top: 2px solid rgb(201, 196, 196);
 }
+
