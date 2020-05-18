@@ -72,6 +72,7 @@ font-size: 25px;
 .paragraph{
     padding: 1rem;
     margin: 2rem;
+    flex:1;
 }
 
 .paragraph .app{
@@ -141,6 +142,7 @@ button:hover, button:focus{
 
 .img{
     margin-right: 1rem;
+    flex: 1;
 }
 .Lorem{
 
