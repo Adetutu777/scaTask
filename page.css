@@ -214,7 +214,7 @@ button:hover, button:focus{
 
 
 
-.icon{
+/* .icon{
     margin-top: -0.5rem;
     margin-bottom: 3rem;
     margin-left: 8rem;
@@ -230,7 +230,7 @@ button:hover, button:focus{
     padding: 1.5rem;
     background-color: white;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-}
+} */
 
 
 
@@ -391,12 +391,14 @@ text-align: left;
 
 .testimonials{
     padding-top: 20px;
-}    
-.user_ratings{
+}  
+.column_style,  
+.user_ratings
+{
     padding: 20px 50px;
   
 }
-.user_rating_card{
+.card_style{
     padding: 50px;
     border-radius: 5px;
 }
@@ -415,7 +417,7 @@ text-align: left;
 .app-footer{
     padding:50px;
 }
-.user_rating_card>img{
+.card_style>img{
     margin: 10px auto;
 }
 input{
