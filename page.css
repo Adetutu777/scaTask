@@ -23,38 +23,34 @@ header{
     display: -o-flex;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 1rem 12rem;
-
+    padding: 50px;
 
 }
+.fusion{
+
+    font-size: 25px;
+    font-weight: bolder;
+    color: #f63854;
+    letter-spacing: 2.0px;
+}
+
 .nav-area{
     list-style: none;
 
 }
 
-.nav-area li{
+.nav-area>li{
     display: inline-block;
     padding: 0 15px;
     text-transform: uppercase;
-
-}
-.fusion{
-    padding: 1rem 0rem;
-    font-size: 25px;
-    font-weight: bolder;
-    margin-right: 10rem;
-    color: red;
-    letter-spacing: 2.0px;
 }
 
 .nav-area li a{
-    color: fff;
+    color: #000;
 }
 
 .nav-area li a:hover{
-    color: red;
-
+    color: #f63854;
 }
 
 .intro{
@@ -132,7 +128,7 @@ button:hover, button:focus{
     width: 35%;
     padding: .9rem;
     border-radius: 3rem;
-    border: 1px solid red;
+    border: 1px solid #f63854;
     color: red;
     font-size: 20px;
     font-weight: bold;
@@ -165,7 +161,7 @@ button:hover, button:focus{
 
 .cursor{
     width: 100px;
-  text-decoration-color: red;
+  text-decoration-color: #f63854;
     display: block;
     unicode-bidi: isolate;
     margin-block-start: 0.5em;
@@ -175,7 +171,7 @@ button:hover, button:focus{
     /*overflow: hidden;*/
     border-style: inset;
     border-width: 2px;
-    border: 2px solid red;
+    border: 2px solid #f63854;
 }
 
 .cursors{
@@ -195,7 +191,7 @@ button:hover, button:focus{
      
     
       border: 2px;
-      outline: 2px solid red;
+      outline: 2px solid #f63854;
 
         /*color: red;
       background-color: red;
