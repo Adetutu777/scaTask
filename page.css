@@ -160,7 +160,7 @@ button:hover, button:focus{
 }
 
 .cursor{
-    width: 100px;
+    width: 200px;
   text-decoration-color: #f63854;
     display: block;
     unicode-bidi: isolate;
